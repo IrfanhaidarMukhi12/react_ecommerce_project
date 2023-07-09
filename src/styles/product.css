@@ -1,0 +1,96 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buttons button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.card6 {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card6 .card6-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.card6 .card6-footer .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px;
+}
+.card6 .card6-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+
+.card6 .card6-body {
+  padding: 20px;
+}
+
+.card6 .card6-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card6 .card6-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card6 .card6-price {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.card6 .card6-footer .btn:hover {
+  background-color: #0056b3;
+}
+
+.card6 .card6-footer .btn i {
+  font-size: 16px;
+}
+
+.card6 .card6-footer .btn-buy-now {
+  order: 2;
+}
+
+.card6 .card6-footer .btn-add-to-cart {
+  order: 1;
+}

@@ -1,0 +1,42 @@
+.nav-link:hover {
+  color: skyblue;
+}
+.navbar {
+  background-color: #05121f;
+}
+.custom-navbar a {
+    color: rgb(21, 177, 44);
+    transition: color 0.3s ease;
+}
+
+.custom-navbar a:hover {
+    color: rgb(27, 100, 129);
+    background-color: red;
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  padding: 0.1rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

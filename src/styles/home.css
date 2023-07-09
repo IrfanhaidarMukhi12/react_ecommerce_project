@@ -1,0 +1,29 @@
+.custom-carousel .carousel-item {
+  height: 800px;
+  
+}
+
+.custom-carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.custom-carousel .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.custom-carousel .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.custom-carousel .card-text {
+  font-size: 1.2rem;
+  color: #fcf9f9;
+}
