@@ -4,10 +4,11 @@ import "../styles/home.css"; // Import your custom CSS file
 
 const Home = () => {
   const imagePaths = [
-    "/assets/main.png.jpg",
-    "/assets/main.png1.jpg",
-    "/assets/main.png2.jpg",
-    // Add more image paths here
+    "/assets/cartPost.jpg",
+    "/assets/cartPost2.jpg",
+    "/assets/shirtPost.jpg",
+    "/assets/t_shirtPost.jpg",
+    
   ];
 
   return (
