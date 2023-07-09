@@ -7,49 +7,35 @@ const Login = () => {
   return (
     <>
       <Navbar />
-      <div className="container my-3 py-3">
-       
-        <div className="row my-4">
-          <div className="col-md-6 offset-md-3">
-            <div className="card3 login-card">
-              <div className="card3-body">
-                <h1 className="text-center mb-4">Login</h1>
-                <hr />
-                <form>
-                  <div className="form-group">
-                    <label htmlFor="emailInput">Email address</label>
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="emailInput"
-                      placeholder="Enter your email"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="passwordInput">Password</label>
-                    <input
-                      type="password"
-                      className="form-control"
-                      id="passwordInput"
-                      placeholder="Enter your password"
-                    />
-                  </div>
-                  <div className="my-3">
-                    <p>
-                      New Here?{" "}
-                      <Link to="/register" className="text-decoration-underline text-info">
-                        Register
-                      </Link>{" "}
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <button className="btn btn-primary login-button" type="submit" disabled>
-                      Login
-                    </button>
-                  </div>
-                </form>
-              </div>
+      <div className="body-demo">
+        <div className="login-div">
+          <div className="logo">
+            <img
+              src={process.env.PUBLIC_URL + '/assets/user.jpg'}
+              alt="Logo"
+              height={100}
+            />
+          </div>
+          <div className="title">Login </div>
+          <div className="fields">
+            <div className="username">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+              <input type="username" className="user-input" placeholder="Username" />
             </div>
+            <div className="password">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+              <input type="password" class="pass-input" placeholder="Password" />
+            </div>
+          </div>
+          <button className="signin-button">Login</button>
+          <div className="link">
+            <a href="#">Forget password?</a> or <Link to="/register" className="text-info">
+              Sign Up
+            </Link>
           </div>
         </div>
       </div>
